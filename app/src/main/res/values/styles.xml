@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomTheme" parent="@android:style/Theme">
+        <item name="android:windowContentOverlay">@color/nocolor</item>
+        <item name="android:windowTitleSize">44dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/customThemeBg</item>
+    </style>
+
+    <style name="customThemeBg">
+        <item name="android:background">@color/orange</item>
+    </style>
+</resources>
